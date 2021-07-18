@@ -1,9 +1,12 @@
 
 # IDCARD GENERATOR
 
-    This project is based on servlet in this project the admin fills the data of the student through the simple html form, when the data is filled by the admin  and as the admin hits the generate id card button. That means the admin is request to  the server for the idcard. As the button is clicked the request goes to the server and server calls the  respected servlet to take the information from the html form and process the information at the run time and give the response in return, but as the server has 
-    many  servlet file so how the server knows that which servlet is to be called, here the  deployment descriptor comes in 
-    the role.  
+    This project is based on servlet in this project the admin fills the data of the student through the simple html form, 
+    when the data is filled by the admin  and as the admin hits the generate id card button. That means the admin is request 
+    to  the server for the idcard. As the button is clicked the request goes to the server and server calls the  respected 
+    servlet to take the information from the html form and process the information at the run time and give the response in return, 
+    but as the server has many  servlet file so how the server knows that which servlet is to be called, 
+    here the  deployment descriptor comes in the role.  
     
     When the admin request idcard from the server the server goes and check the  web.xml file i:e deployment descriptor in 
     this file the url-mapping is done in through  which the server knows that in this request this servlet should be called. 
