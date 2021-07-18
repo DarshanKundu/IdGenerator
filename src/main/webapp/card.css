@@ -1,0 +1,37 @@
+.img{
+	background-image:url("id.png");
+	background-repeat:no-repeat;
+	background-size: 400px 500px;
+	background-attachment: fixed;
+    background-position: center;	
+}
+
+.element{
+	margin-top:0%;
+}
+.eles{
+		margin-left:500px;
+}
+.txtarea{
+		margin-left:30px;
+}
+.tl{
+	margin-left:50px;
+	
+}
+.txtarea1{
+		margin-left:95px;
+}
+.drpdwn{
+	width:228px;
+}
+
+h3{
+	margin-top:150px;
+	color:red;
+}
+.btn{
+	margin-left:100px;
+	background-color:red ;
+	color:white;
+}
